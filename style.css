@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.center {
+    padding-left: calc(50% - 550px);
+    padding-right: calc(50% - 550px);
+}
+
+.item_top_img {
+    width: 70px;
+    height: 70px;
+}
+
+.item_top_h {
+    padding-top: 25px;
+    padding-bottom: 17px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item_top_text {
+    color: #666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.item_top_a {
+    padding-top: 25px;
+    padding-bottom: 40px;
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.item_top {
+    background: #FFF;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.top_uniqle {
+    padding-top: 40px;
+    padding-left: 40px;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.content_subtitle {
+    padding-top: 122px;
+    padding-bottom: 19px;
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content_text {
+    color: #666;
+    width: 682px;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.top_content {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: 549px;
+    gap: 30px;
+    align-items: center;
+}
+
+.top_content_subtitle {
+    padding-bottom: 22px;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top_content_text {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #AAA;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 310px;
+}
+
+.image_content {
+    width: 360px;
+    height: 290px;
+}
+
+.button_content {
+    margin-left: 100px;
+    margin-top: 54px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    flex-shrink: 0;
+    background-color: #F25822;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.header__top {
+    padding-top: 140px;
+    ;
+    display: grid;
+    gap: 90px;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: 291px;
+}
